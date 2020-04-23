@@ -1,0 +1,57 @@
+page {
+  background-color: #363636;
+  color: #fff;
+  font-size: 12px;
+}
+swiper {
+  width: 100%;
+  height: calc(100vw * 211 / 414);
+}
+swiper image {
+  width: 100%;
+}
+.hero-list-box {
+  display: flex;
+  margin: 12px 10px;
+}
+.hero-list-box .hero-left-intro {
+  flex: 50%;
+  display: flex;
+  flex-direction: column;
+}
+.hero-list-box .hero-left-intro .hero-title {
+  font-size: 15px;
+}
+.hero-list-box .hero-left-intro .hero-name {
+  font-size: 20px;
+  margin-top: 4px;
+}
+.hero-list-box .hero-left-intro .tags-list {
+  margin-top: 12px;
+}
+.hero-list-box .hero-left-intro .tags-list .tags {
+  width: 30px;
+  height: 22px;
+  margin-right: 4px;
+  background-color: #029b7f;
+  border-radius: 4px;
+  display: inline-block;
+  line-height: 21px;
+  text-align: center;
+}
+.hero-list-box .hero-left-intro .progress-list {
+  margin-top: 18px;
+  display: flex;
+  flex-direction: column;
+}
+.hero-list-box .hero-left-intro .progress-list .item {
+  display: flex;
+  margin-top: 4px;
+}
+.hero-list-box .hero-left-intro .progress-list .item progress {
+  width: 100px;
+  margin-left: 6px;
+}
+.hero-list-box .hero-right-story {
+  flex: 50%;
+}

@@ -1,0 +1,14 @@
+{
+  "pages":[
+    "pages/home/home",
+    "pages/detail/detail"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#354559",
+    "navigationBarTitleText": "",
+    "navigationBarTextStyle":"white"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

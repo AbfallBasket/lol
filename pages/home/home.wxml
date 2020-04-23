@@ -1,0 +1,8 @@
+<view class="hero-list">
+	<navigator url="../detail/detail?id={{item.id}}" open-type="navigate" class="hero-list-box" wx:for="{{heroList}}" wx:key="id">
+		<image bindtab="hand" src="{{item.iconUrl}}" mode="widthFix" lazy-load="true" />
+		<veiw>
+			{{item.name}}
+		</veiw>
+	</navigator>
+</view>
