@@ -1,71 +1,70 @@
 page {
-    background-color: #363636;
-    color           : #fff;
-    font-size       : 12px;
+  background-color: #363636;
+  color: #fff;
+  font-size: 12px;
 }
 
 swiper {
-    width : 100%;
-    height: calc(100vw * 211 / 414);
+  width: 100%;
+  height: calc(100vw * 211 / 414);
 
-    image {
-        width: 100%;
-    }
+  image {
+    width: 100%;
+  }
 }
 
-
 .hero-list-box {
+  display: flex;
+  margin: 12px 10px;
+
+  .hero-left-intro {
+    flex: 50%;
     display: flex;
-    margin : 12px 10px;
+    flex-direction: column;
 
-    .hero-left-intro {
-        flex          : 50%;
-        display       : flex;
-        flex-direction: column;
-
-        .hero-title {
-            font-size: 15px;
-        }
-
-        .hero-name {
-            font-size : 20px;
-            margin-top: 4px;
-        }
-
-        .tags-list {
-            margin-top: 12px;
-
-            .tags {
-                width           : 30px;
-                height          : 22px;
-                margin-right    : 4px;
-                background-color: #029b7f;
-                border-radius   : 4px;
-                display         : inline-block;
-                line-height     : 21px;
-                text-align      : center;
-            }
-        }
-
-        .progress-list {
-            margin-top    : 18px;
-            display       : flex;
-            flex-direction: column;
-
-            .item {
-                display   : flex;
-                margin-top: 4px;
-
-                progress {
-                    width      : 100px;
-                    margin-left: 6px;
-                }
-            }
-        }
+    .hero-title {
+      font-size: 15px;
     }
 
-    .hero-right-story {
-        flex: 50%;
+    .hero-name {
+      font-size: 20px;
+      margin-top: 4px;
     }
+
+    .tags-list {
+      margin-top: 12px;
+
+      .tags {
+        width: 30px;
+        height: 22px;
+        margin-right: 4px;
+        background-color: #029b7f;
+        border-radius: 4px;
+        display: inline-block;
+        line-height: 21px;
+        text-align: center;
+      }
+    }
+
+    .progress-list {
+      margin-top: 18px;
+      display: flex;
+      flex-direction: column;
+
+      .item {
+        display: flex;
+        margin-top: 4px;
+
+        progress {
+          width: 100px;
+          margin-left: 6px;
+        }
+      }
+    }
+  }
+
+  .hero-right-story {
+    flex: 50%;
+  }
 
 }
